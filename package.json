@@ -1,0 +1,32 @@
+{
+  "name": "slush-campjs-gulp-workshop",
+  "version": "0.0.0",
+  "description": "Gulp workshop starter kit for CampJS III",
+  "homepage": "https://github.com/markdalgleish/slush-campjs-gulp-workshop",
+  "main": "slushfile.js",
+  "dependencies": {
+    "gulp": "~3.6.2",
+    "gulp-conflict": "~0.1.1",
+    "gulp-install": "~0.1.5",
+    "gulp-rename": "~1.2.0",
+    "gulp-template": "~0.1.1",
+    "inquirer": "~0.4.1",
+    "underscore.string": "~2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markdalgleish/slush-campjs-gulp-workshop.git"
+  },
+  "keywords": [
+    "campjs"
+  ],
+  "author": "Mark Dalgleish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markdalgleish/slush-campjs-gulp-workshop/issues"
+  }
+}

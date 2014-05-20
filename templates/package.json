@@ -1,0 +1,17 @@
+{
+  "name": "campjs-gulp-example",
+  "version": "0.0.0",
+  "description": "Experimental build from the Gulp workshop at CampJS III",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= githubUsername %>/campjs-gulp-example.git"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2"
+  },
+  "license": "MIT"
+}
