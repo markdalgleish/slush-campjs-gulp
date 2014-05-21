@@ -1,3 +1,7 @@
-* {
-  box-sizing: border-box;
+:root {
+  --blue: #5790EF;
+}
+
+h1 {
+  color: var(--blue);
 }
