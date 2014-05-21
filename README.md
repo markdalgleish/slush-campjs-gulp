@@ -12,12 +12,6 @@ Install `slush-campjs-gulp-workshop` globally:
 $ npm install -g slush-campjs-gulp-workshop
 ```
 
-Remember to install `slush` globally as well, if you haven't already:
-
-```bash
-$ npm install -g slush
-```
-
 ### Usage
 
 Create a new folder for your project:
