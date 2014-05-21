@@ -10,14 +10,9 @@ var gulp = require('gulp'),
 
 gulp.task('default', function (done) {
   var prompts = [{
-    type: 'input',
-    name: 'githubUsername',
-    message: 'What is your GitHub username?',
-    default: ''
-  }, {
     type: 'confirm',
     name: 'moveon',
-    message: 'Continue?'
+    message: 'Ready to get started?'
   }];
 
   console.log([
