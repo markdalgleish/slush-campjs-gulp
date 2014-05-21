@@ -31,7 +31,7 @@ $ slush campjs-gulp-workshop
 
 [Slush](https://github.com/klei/slush) is a tool that uses [Gulp](https://github.com/gulpjs/gulp) for project scaffolding.
 
-Slush does not contain anything "out of the box", except the ability to locate installed slush generators and to run them with liftoff.
+Slush does not contain anything "out of the box", except the ability to locate installed slush generators and to run them with [liftoff](https://github.com/tkellen/node-liftoff).
 
 To find out more about Slush, check out the [documentation](https://github.com/klei/slush).
 
