@@ -6,7 +6,8 @@ var gulp = require('gulp'),
   template = require('gulp-template'),
   rename = require('gulp-rename'),
   _ = require('underscore.string'),
-  inquirer = require('inquirer');
+  inquirer = require('inquirer'),
+  chalk = require('chalk');
 
 gulp.task('default', function (done) {
   var prompts = [{
@@ -15,22 +16,27 @@ gulp.task('default', function (done) {
     message: 'Ready to get started?'
   }];
 
-  console.log([
+  console.log(chalk.blue.bold([
     '',
-    '..######.....###....##.....##.########........##..######.',
-    '.##....##...##.##...###...###.##.....##.......##.##....##',
-    '.##........##...##..####.####.##.....##.......##.##......',
-    '.##.......##.....##.##.###.##.########........##..######.',
-    '.##.......#########.##.....##.##........##....##.......##',
-    '.##....##.##.....##.##.....##.##........##....##.##....##',
-    '..######..##.....##.##.....##.##.........######...######.',
     '',
+    '     ######     ###    ##     ## ########        ##  ######  ',
+    '    ##    ##   ## ##   ###   ### ##     ##       ## ##    ## ',
+    '    ##        ##   ##  #### #### ##     ##       ## ##       ',
+    '    ##       ##     ## ## ### ## ########        ##  ######  ',
+    '    ##       ######### ##     ## ##        ##    ##       ## ',
+    '    ##    ## ##     ## ##     ## ##        ##    ## ##    ## ',
+    '     ######  ##     ## ##     ## ##         ######   ######  ',
+    '',
+    ''
+  ].join('\n')) +
+  chalk.green.bold([
     '    Thanks for coming to the Gulp workshop at CampJS III!',
     '    We hope you enjoy it :)',
     '',
     '      - @markdalgleish & @michaeltaranto',
+    '',
     ''
-  ].join('\n'));
+  ].join('\n')));
 
   inquirer.prompt(prompts, function (answers) {
     if (!answers.moveon) return done();
