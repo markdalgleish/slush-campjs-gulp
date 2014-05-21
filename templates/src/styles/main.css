@@ -1,12 +1,18 @@
 :root {
-  --blue: #5790EF;
+  --primary: #D87152;
+  --text: #222;
 }
 
 body {
+  font-family: helvetica neue, helvetica, arial, sans-serif;
+  font-size: 24pt;
+  font-weight: 200;
   background: url(../images/background.svg) no-repeat center center fixed;
   background-size: cover;
+  text-align: center;
+  color: var(--text);
 }
 
 h1 {
-  color: var(--blue);
+  color: var(--primary);
 }
