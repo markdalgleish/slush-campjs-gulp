@@ -24,12 +24,13 @@ Create a new folder for your project:
 
 ```bash
 $ mkdir my-project
+$ cd my-project
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-project && slush campjs-gulp-workshop
+$ slush campjs-gulp-workshop
 ```
 
 ## Getting To Know Slush
