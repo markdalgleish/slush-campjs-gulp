@@ -24,7 +24,7 @@ $ cd my-project
 Run the generator from within the new folder:
 
 ```bash
-$ slush campjs-gulp-workshop
+$ slush campjs-gulp
 ```
 
 ## Getting To Know Slush
