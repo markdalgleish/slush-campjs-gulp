@@ -1,4 +1,4 @@
-# Contributing to slush-campjs-gulp-workshop
+# Contributing to slush-campjs-gulp
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
@@ -93,11 +93,11 @@ project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/slush-campjs-gulp-workshop
+   git clone https://github.com/<your-username>/slush-campjs-gulp
    # Navigate to the newly cloned directory
-   cd slush-campjs-gulp-workshop
+   cd slush-campjs-gulp
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/markdalgleish/slush-campjs-gulp-workshop
+   git remote add upstream https://github.com/markdalgleish/slush-campjs-gulp
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:

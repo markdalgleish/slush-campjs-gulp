@@ -1,4 +1,4 @@
-# slush-campjs-gulp-workshop
+# slush-campjs-gulp
 
 > [Gulp](https://github.com/gulpjs/gulp) workshop starter kit for [CampJS III](http://campjs.com)
 
@@ -6,10 +6,10 @@
 
 ### Installation
 
-Install `slush-campjs-gulp-workshop` globally:
+Install `slush-campjs-gulp` globally:
 
 ```bash
-$ npm install -g slush-campjs-gulp-workshop
+$ npm install -g slush-campjs-gulp
 ```
 
 ### Usage
@@ -37,10 +37,10 @@ To find out more about Slush, check out the [documentation](https://github.com/k
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/markdalgleish/slush-campjs-gulp-workshop/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/markdalgleish/slush-campjs-gulp/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/markdalgleish/slush-campjs-gulp-workshop/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/markdalgleish/slush-campjs-gulp/issues).
 
 ## License
 
