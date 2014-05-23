@@ -1,6 +1,6 @@
 {
   "name": "slush-campjs-gulp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Gulp workshop starter kit for CampJS III",
   "homepage": "https://github.com/markdalgleish/slush-campjs-gulp",
   "main": "slushfile.js",
