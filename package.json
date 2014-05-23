@@ -28,6 +28,9 @@
     "campjs"
   ],
   "author": "Mark Dalgleish",
+  "contributors": [{
+    "name": "Michael Taranto"
+  }],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/markdalgleish/slush-campjs-gulp/issues"
